@@ -10,7 +10,8 @@
     "develop": "gatsby develop",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "typesync || :"
+    "postinstall": "typesync || :",
+    "type-check": "tsc"
   },
   "dependencies": {
     "gatsby": "^2.30.2",
