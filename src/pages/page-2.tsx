@@ -1,7 +1,7 @@
-import * as React from 'react'
 import Link from 'gatsby-link'
+import * as React from 'react'
 
-const SecondPage = () => (
+const SecondPage = (): JSX.Element => (
   <div>
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
